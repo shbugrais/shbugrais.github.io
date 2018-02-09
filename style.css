@@ -1,0 +1,31 @@
+html, body {
+  height:100%;
+  width: 100%;
+  background-color: #f69797;
+}
+
+.mainwrapper {
+  background-image:url(asset-1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: #f69797;
+  height: 100%
+  width: 100%
+  position: relative;
+  color:#f69797;
+  text-align: center;
+}
+ a{
+ color: inherit;}
+img {
+  width: 100%
+  height: auto;
+}
+
+.personal-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
