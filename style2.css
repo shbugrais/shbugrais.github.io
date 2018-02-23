@@ -2,25 +2,36 @@ html, body {
   height:100%;
   width: 100%;
   background-color: #f69797;
+  font color: white;
 }
 
-.mainwrapper {
-  background-image:url(asset-1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+.main-wrapper {
   background-color: #f69797;
-  height: 100%
-  width: 100%
+  height: 100%;
+  width: 100%;
   position: relative;
-  color:#f69797;
+  color:white;
   text-align: center;
+  font-style:oblique;
 }
+
  a{
- color: inherit;}
+   border: 2px dotted;
+   padding: 5px;
+transition: 300ms;
+ color: inherit;
+}
+a:hover{
+  border: 5px solid;
+
+}
 img {
-  width: 100%
+  width: 100%;
   height: auto;
+}
+
+h1 {
+  font color: white;
 }
 
 .personal-info {
