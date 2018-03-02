@@ -22,8 +22,17 @@ font-family: sans-serif;
   text-shadow: 9px 10px 0px #f16364;
   font-family: sans-serif;
 }
+
+.arm {
+  position: relative;
+}
+
+.arm .vertical-type {
+  position: absolute;
+  top:0;
+}
 .arm span{
-  margin-top:800px;
+
   margin-right: 1000px;
   display:inline-inline-flex;
   font-size: 100px;
@@ -33,4 +42,28 @@ font-family: sans-serif;
 }
 .trumpet span{
   margin-bottom: 1000px;
+}
+.lyric  {
+  text-align: center;
+}
+pre{
+  font-size:"100px"
+}
+
+.large-text{
+  font-size: 50px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.large-text.white {
+  color:#f3b0b4;
+}
+
+.large-text.coral {
+  color: #f16364
+}
+
+.large-text.red {
+  color: #d72028
 }
