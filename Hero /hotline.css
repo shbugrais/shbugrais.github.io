@@ -1,0 +1,36 @@
+body {
+   background-image: url("mashallah.png");
+   background-color: #f4c1d1;
+   weight: 100%;
+   width: auto;
+   size: 50px;
+   margin-left: 50px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #f4c1d1;
+    color: white;
+}
