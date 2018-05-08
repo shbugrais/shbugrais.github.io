@@ -26,12 +26,11 @@
 margin-top: 10px;
   margin-left: 20px;
   background-position: center;
-  background-size:cover;
+  background-size:contain;
 
 }
 .column .wink:hover {
   background-image: url("wink2.png");
-  background-size: 360px;
   margin-left: 20px;
 
 }
@@ -110,7 +109,7 @@ margin-top: 10px;
     .sidenav a {font-size: 18px;}
 }
 body {
-   background-image: url("kuwaitt.png");
+
    background-color: white;
    weight: 100%;
    width: auto;
